@@ -1,0 +1,58 @@
+h1 {
+    color: #ffffff;
+}
+
+h2 {
+    color: #836060
+}
+
+div.tabb {
+    background-color: #C89595;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 18px
+}
+
+div.tabb:hover {
+    background-color: #DDBEBE;
+}
+
+div.biodata {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 5px;
+    background-color: #DDBEBE;
+    border: 2px solid #C89595;
+}
+
+div.reach {
+    width: 350px;
+    padding: 10px;
+    border: 5px solid #836060;
+    background-color: #f0dddd;
+    margin: 0;
+}
+
+@media (min-width: 800px) {
+    h2 {
+        color: #DDBEBE
+    }
+}
+
+td {
+    color:#6C4A4A
+}
+ul {
+    color: #6C4A4A 
+}
+p {
+    color: #6C4A4A
+}
+
+@media (max-width:800px) {
+    td {
+        color: #DDBEBE
+    }
+}
